@@ -1,0 +1,11 @@
+# кодировки для всего проекта
+AddDefaultCharset UTF-8
+# правила для переработки полученного URL
+RewriteEngine On
+# статичные Js и css
+# RewriteRule ^((?!\.js|\.css).*)$ /index.php?p=/$1 [L]
+# если URI не оканчивается на имя index файла (!-f), то запускаем файл index.php L - значит последняя инструкция
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !^/static/
+RewriteRule ^(.*)$ index.php [L,QSA]

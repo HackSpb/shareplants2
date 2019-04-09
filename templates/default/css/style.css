@@ -1,0 +1,252 @@
+    /* ####################################################
+    :: Template Name: Essence - Fashion Ecommerce Template
+    :: Author: Colorlib
+    :: Author URL: https://colorlib.com
+    :: Description: Essence is smart & elegant fashion e-commerce Template. It's suitable for all e-commerce business platform.
+    :: Version: 1.0.0
+    :: Created: April 27, 2018
+    :: Last Updated: May 2, 2018
+    #################################################### */
+
+    /* ---------------------------------------
+    ##### - PLACE YOUR CUSTOM CSS HERE - #####
+    --------------------------------------- */
+@font-face { 
+  font-family: 'futurapt'; 
+  src:  url('../fonts/futurapt/FUTURABOLD.woff') format('woff'),
+        url('../fonts/futurapt/FUTURABOLD.ttf')  format('truetype'); /* Только если нужна поддержка старых Android, иначе закомментировать */ 
+  font-weight: bold; 
+  font-style: normal; 
+}
+
+@font-face { 
+  font-family: 'futurapt'; 
+  src:  url('../fonts/futurapt/FUTURAREGULAR.woff') format('woff'),
+        url('../fonts/futurapt/FUTURAREGULAR.ttf')  format('truetype'); /* Только если нужна поддержка старых Android, иначе закомментировать */ 
+  font-weight: normal; 
+  font-style: normal; 
+}
+
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.amado-btn {
+    background-color: #1c591a;
+    /* border-radius: 20px 0 20px 0; */
+    border-radius: 30px 0;
+    text-transform: uppercase;
+}
+
+.amado-btn:hover {
+    background-color: #fbb710;
+}
+
+
+
+        /*HEADER*/
+
+/*City*/
+.city {
+    padding-right: 10px;
+}
+
+/*.city-option {
+    color: #fbb710;
+}*/
+
+.my_reg-btn {
+    margin-bottom: 10px;
+}
+
+
+
+
+/*Header Nav*/
+.nav-close {
+  border-radius: 14px 0;
+}
+    .header-nav-main {
+        margin-bottom: 20px;
+    }
+
+    .header-nav-contacts {
+        margin-top: 20px;
+    }
+
+.header-nav-item {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/*Search*/
+.search-close {
+  border-radius: 15px 0;
+}
+
+
+        /*TOP*/
+.top {
+    background-color: #1c591a;
+       background-image: url(/templates/default/img/heands.jpg);
+    background-position: center;
+    background-size: cover;
+    background-position : 0% 65%;
+
+    min-height: 380px;
+}
+
+.top-text {
+  text-align: center;
+  background-color: rgba(28, 89, 26, 0.5);
+  margin-top: 100px;
+  padding-top: 50px;
+  margin-right: 20px;
+}
+.top-right {
+  margin-top: 50px;
+  height: 150px;
+  width: 50%;
+/*  background-image: url(/templates/default/img/sunflowers.jpg);
+  background-position: center;
+  background-size: cover;*/
+/*  */
+}
+
+
+        /*MAIN*/
+
+/* .catalog-wrap {
+background-image: url(/templates/default/img/ferns.jpg);
+background-position: center;
+background-size: cover;
+} */
+
+.catalog-area {
+margin-bottom: 20px;
+margin-top: 20px;
+margin-right: -2px;
+}
+
+
+
+
+        /*FOOTER*/
+
+/*Footer Menu*/
+    .footer-nav-main {
+        margin-right: 30px;
+    }
+
+    .footer-nav-obj {
+        margin-right: 30px;
+    }
+
+    .navbar-toggler {
+      border-radius: 10px 0;
+    }
+
+.my_footer {
+    background-image: url(/templates/default/img/sukkulentkaktus.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#scrollUp {
+  border-radius: 15px 0;
+}
+
+.footer-logo {
+max-width: 8vw;
+}
+
+.footer_1mg {
+  max-width: 100%;
+}
+
+.navbar-nav {
+  background: rgba(20, 20, 20, 0.4);
+  padding-right: 25px;
+}
+
+
+
+
+        /*ADVERT*/
+.advert-btn {
+    margin: 10px 0;
+}
+
+.color_checkbox {
+  display:none;
+}
+
+.color_checked {
+  border:double  4px;
+  border-color-top: #F00;
+  border-color-bottom:#0F0;
+}
+
+.hover-content {
+  background: rgba(250, 250, 255, 0.5);
+  width: 100%;
+  left:0 !important;
+  top:0 !important;
+  padding-left: 40px;
+}
+
+.advert_user_name {
+  font-size: 18px;
+}
+
+.advert_user_contacts {
+  font-size: 16px;
+margin: 0;
+}
+
+.advert_description {
+  font-size: 18px;
+}
+
+.descriptions {
+   font-size: 18px;
+   margin-bottom: 50px;
+}
+
+.param_name {
+
+}
+
+.advert_color {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+
+
+
+
+        /*CATALOG*/
+/* filter */
+.filters-wrap {
+flex: 0 0 300px;
+  width: 300px;
+  padding: 20px;
+}
+
+.filter-input {
+  margin-top: 20px;
+  margin-left: 23px;
+}
+
+        /*REG*/
+.reg_error {
+  color: red;
+}
+
+
+.widget .catagories-menu li a {
+  padding:7px 0 7px 0 !important;
+}
